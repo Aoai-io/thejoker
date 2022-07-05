@@ -570,12 +570,12 @@ export class POS {
                             return reject(error);
                         }
                     })
-            } else {
-                return reject({
-                    status: 'failed',
-                    message: __('No tax group assigned to the order')
-                })
-            }
+            } //else {
+               // return reject({
+                //    status: 'failed',
+                 //   message: __('No tax group assigned to the order')
+               // })
+           // }
         })
     }
 
